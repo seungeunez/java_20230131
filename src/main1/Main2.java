@@ -25,7 +25,7 @@ public class Main2 {
 		}
 		System.out.println();
 		
-		//age의 값들을 반대로 출력하세요
+		//Q1. age의 값들을 반대로 출력하세요
 		
 		for(i=age.length-1; i>=0; i--) {
 			System.out.print(age[i]);
@@ -39,7 +39,7 @@ public class Main2 {
 		
 		System.out.println();
 		
-		// age의 값들의 합과 평균 구하기
+		//Q2. age의 값들의 합과 평균 구하기
 		int sum=0;
 		float avg=0;
 		
@@ -54,7 +54,7 @@ public class Main2 {
 		
 		System.out.println();
 		
-		// age 5개 중에서 짝수만 출력
+		//Q3. age 5개 중에서 짝수만 출력
 
 		for (i = 0; i < age.length; i++) {
 			if (age[i] % 2 == 0) 
