@@ -16,7 +16,7 @@ import lombok.ToString;
 
 //자바 프로젝트 폴더 우클릭
 //Configure - convert to setter getter?
-//Update Maven Project - Force Update까지 체크하고 OK누르기
+//Update Project ..  - Force Update까지 체크하고 OK누르기
 
 //lombok-1.18.12.jar 설치하기
 
