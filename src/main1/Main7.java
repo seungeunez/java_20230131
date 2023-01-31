@@ -17,6 +17,8 @@ public class Main7 {
 		obj.setStudent(s1);
 		obj.setScore(s2);
 		
+	
+		
 		
 		
 		// 3. 전체 합계를 구하기
