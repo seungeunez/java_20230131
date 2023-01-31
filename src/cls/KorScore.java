@@ -4,6 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+
+//Maven은 깃헙에 안올림 용량도 많고.. 그래서 집에서할 땐 프로젝트 파일 우클릭 - Maven - update 하자
+
 @Getter
 @Setter
 @ToString
