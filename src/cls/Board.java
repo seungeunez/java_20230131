@@ -9,6 +9,7 @@ import java.util.Date;
 
 public class Board {
 	
+
 	
 	
 	//private 외부에서 사용하지 말라고 쓰는 것
