@@ -1,5 +1,6 @@
 package cls;
 
+
 //원시타입은 import안해도 되는데 직접만든 것들은 해야함
 import java.util.Date;
 
@@ -7,7 +8,7 @@ import java.util.Date;
 //아이디, 암호, 이메일, 나이, 주소, 연락처, 가입일자 등 (설계상에서 정해지는 항목)
 public class Member {
 	
-	
+	// 클래스를 만들 땐 기능을 많이 넣어줘야 main에서 일하는게 수월하다.
 	// 비어있는 상태 유지. 건들면 안됨 형태 유지 할 것
 	String userId = "";
 	String userPW = "";
