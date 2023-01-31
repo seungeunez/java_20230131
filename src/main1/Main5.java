@@ -12,7 +12,7 @@ public class Main5 {
 		
 		
 		// 2. 객체를 기반으로 메소드를 사용해서 적절한 일을 수행
-	
+
 		board.setBrdNo(128L);	//long 썼을 땐 꼭 L을 넣자
 		board.setBrdTitle("Java");
 		board.setBrdContent("java class");
@@ -24,7 +24,7 @@ public class Main5 {
 //		board.setBrdDate(date);	위에랑 같은 뜻임 귀찮게 둘로 나누지말고 하나로 합치자
 
 		
-		// 3. toString을 호출해서 현재의 값을 출력
+		// 3. toString을 호출해서 현재의 값을 반환 후 출력
 		System.out.println(board.toString());
 		
 	}
