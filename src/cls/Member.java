@@ -16,6 +16,8 @@ public class Member {
 	String userPhone = "000-0000-0000";
 	Date userDate = null; // 클래스형의 타입을 만들어 놓음
 	
+	
+
 	// 데이터를 집어넣고 꺼내쓰는 역할이 필요함 
 	// 누군가에 의해서 값을 저장시키는 역할 setter
 	// 누군가에 의해서 값을 가지고 갈 수 있는 역할 getter
@@ -27,8 +29,14 @@ public class Member {
 	// 3. 메소드명(Main4에서 전달할 값) => 현재는 없음
 	
 	
+	// 우클릭 - Source - Generate toString()
+	@Override
+	public String toString() {
+		return "Member [userId=" + userId + ", userPW=" + userPW + ", userEmail=" + userEmail + ", userAge=" + userAge
+				+ ", userPhone=" + userPhone + ", userDate=" + userDate + "]";
+	}
+
 	//메소드는 통로 역할 값이 지정되어 있으면 바꿀 수가 없어
-	// 위에 있
 	public String getUserId() {
 		return userId;
 	}
