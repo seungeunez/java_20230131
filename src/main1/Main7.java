@@ -18,11 +18,12 @@ public class Main7 {
 		obj.setScore(s2);
 		
 		
+		
 		// 3. 전체 합계를 구하기
 		
 		// 4. 전체 평균 구하기
 		
-		// 5. 최대 점수 구하기
+		// 5. 최대 점수 구하기 
 		
 		// 6. 최소 점수 구하기
 		
@@ -30,6 +31,12 @@ public class Main7 {
 		
 		// 8. 확인
 		System.out.println(obj.toString());
+		System.out.println("점수 합계 = "+obj.sumScore());
+		System.out.println("점수 평균 = "+obj.avgScore());
+		System.out.println("90점 이상인 사람은? "+obj.score90());
+		System.out.println("최고 점수: "+obj.scoreMax());
+		System.out.println("최저 점수: "+obj.scoreMin());
+		
 
 	}
 	
