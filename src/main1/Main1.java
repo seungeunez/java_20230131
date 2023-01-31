@@ -11,9 +11,12 @@ public class Main1 {
 		
 		//클래스
 		// 정수형 Byte, Short, Integer, Long => 클래스로 만들어 놓은 것 
-		
+		// String	//String은 원시타입 아님 char만 원시타입임
+		char[] name= {'t','s','e'};	//하나씩 따로 하는게 불편해서 String으로 하는거임
 		
 		int age=13;
+		
+		
 		
 		//조건문
 		// if(조건) 비교: >= <= == !=
