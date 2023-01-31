@@ -18,20 +18,19 @@ import lombok.ToString;
 //Configure - convert to setter getter?
 //Update Maven Project - Force Update까지 체크하고 OK누르기
 
+//lombok-1.18.12.jar 설치하기
 
 public class Board {
-	
-	
-	//private 외부에서 사용하지 말라고 쓰는 것
-	//long쓸땐 L 넣는거 잊지말자
-	private long brdNo = 0L;	// 글번호
-	private String brdTitle = ""; //제목
-	private String brdContent = ""; //내용
-	private String brdWriter = ""; //작성자
-	private long brdHit = 0L; //조회수
-	private Date brdDate = null; //날짜
-	
-	
+
+	// private 외부에서 사용하지 말라고 쓰는 것
+	// long쓸땐 L 넣는거 잊지말자
+	private long brdNo = 0L; // 글번호
+	private String brdTitle = ""; // 제목
+	private String brdContent = ""; // 내용
+	private String brdWriter = ""; // 작성자
+	private long brdHit = 0L; // 조회수
+	private Date brdDate = null; // 날짜
+
 //	@Override
 //	public String toString() {
 //		return "Board [brdNo=" + brdNo + ", brdTitle=" + brdTitle + ", brdContent=" + brdContent + ", brdWriter="
@@ -75,5 +74,5 @@ public class Board {
 //		this.brdDate = brdDate;
 //	}
 //	
-	
+
 }
