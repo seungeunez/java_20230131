@@ -8,8 +8,12 @@ public class Main5 {
 
 	public static void main(String[] args) {
 
+	
 		// 1. 객체 생성
-		Board board = new Board();
+		//Board 클래스 가져오는 방법
+		//Borad 클래스 파일에 가져와서 Main5에서 값 넣기
+		Board board = new Board();	
+		
 
 		// 2. 객체를 기반으로 메소드를 사용해서 적절한 일을 수행
 

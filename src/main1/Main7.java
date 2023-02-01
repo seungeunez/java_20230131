@@ -8,9 +8,15 @@ public class Main7 {
 		// TODO Auto-generated method stub
 
 		
+		//변수는 타입[] 변수명; 타입 변수명[] 어느곳에나 []붙여도 상관 없음
+		
 		// 1. 사용자가 입력한 값
+		// 값 목록으로 배열 생성
+		// 타입[] 변수 = {값1, 값2, 값3};
 		String[] s1 = { "송주현", "이혜빈", "최민서", "이도희", "황소영" };
 		int[] s2 = { 20, 99, 70, 98, 100 };
+		
+		
 		
 		// 2. KorScore 클래스로 계산해야하는 데이터를 전송(setter)
 		KorScore obj = new KorScore();

@@ -15,6 +15,8 @@ import lombok.ToString;
 // 5명의 학생의 국어 점수를 보관하고 처리할 클래스
 public class KorScore {
 
+	//new 연산자로 배열 생성
+	// 타입[] 변수명 = new 타입[길이];
 	private String[] student = new String[5];
 	private int[] score = new int[5];
 

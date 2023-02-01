@@ -19,9 +19,11 @@ public class Main6 {
 		item.setDate(new Date());
 
 		// 2. 20%할인한 금액으로 자동 계산
-		item.discountPrice(0.2f);
+		item.discountPrice(0.2f);	
+		// 0.8f로 해주면 Item 클래스에서는 this.price * per로 해줘야함
 
-		// 3. 재고 수량이 100개 미만이면 1000개로 변경
+		// 3. 재고 수량이 100개 미만이면 1000개로 변경인데
+		// 100개 추가해주는것같음
 		item.checkQuantity(100);
 		
 		
