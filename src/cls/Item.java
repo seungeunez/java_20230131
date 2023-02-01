@@ -11,8 +11,11 @@ import lombok.ToString;
 @ToString
 // @ctrl+space 누르면 나옴
 
+// public static void main(String[] args)가 없으면 실행이 안된다
+//그래서 위의 코드가 있는 클래스에서 호출해서 써야함
+
 //클래스
-public class Item {
+public class Item {	//Item이라는 타입
 
 	private long no = 0L; // 물품번호
 	private String name = null; // 물품명 문자열은 null로 초기화를 많이 함
