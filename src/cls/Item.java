@@ -2,13 +2,19 @@ package cls;
 
 import java.util.Date;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
 @Getter
 @Setter
 @ToString
+@AllArgsConstructor
+@NoArgsConstructor
+
+
 // @ctrl+space 누르면 나옴
 
 // public static void main(String[] args)가 없으면 실행이 안된다
@@ -45,5 +51,6 @@ public class Item {	//Item이라는 타입
 			//this.quantity = 1000;	//이게 1000으로 바꿔주는것같은데
 		}
 	}
+	
 
 }
